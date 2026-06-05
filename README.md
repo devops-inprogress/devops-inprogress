@@ -2,8 +2,29 @@
 
 Hi, I'm Mario Bergsch — building AI-driven smart operations systems for manufacturing and logistics.
 
-**31+ years in production, logistics, and process optimization**  
+**31+ years in production, logistics, and process optimization**
 Now: Architect at the intersection of lean management + modern automation (Claude AI, n8n, Kubernetes)
+
+---
+
+## Quick Start
+
+**Looking for a specific project?**
+
+| Project | Status | Link |
+|---------|--------|------|
+| AI Shift Handover System | ✅ MVP Validated | [→ Repo](https://github.com/mario-bergsch/ai-shift-handover-system) |
+| Smart Operations Automation Lab | 🔄 In Development | [→ Repo](https://github.com/mario-bergsch/smart-operations-automation-lab) |
+| Smart Operations Framework | ✅ 20 Playbooks | Private Vault |
+
+**Clone & run the validated MVP:**
+```bash
+git clone https://github.com/mario-bergsch/ai-shift-handover-system.git
+cd ai-shift-handover-system
+pip install -r requirements.txt
+export ANTHROPIC_API_KEY=your_key_here
+python shift_handover.py
+```
 
 ---
 
@@ -13,7 +34,7 @@ Now: Architect at the intersection of lean management + modern automation (Claud
 
 Transform unstructured shift notes into structured management reports automatically.
 
-**Status:** MVP validation complete (12/12 test criteria passed)  
+**Status:** MVP validation complete (12/12 test criteria passed)
 **What it does:**
 - SBAR reports (5-minute read, management-ready)
 - RCA analysis (6M + 5-Why root cause)
@@ -29,7 +50,7 @@ Transform unstructured shift notes into structured management reports automatica
 
 Kubernetes-based platform for deploying, testing, and scaling smart operations workflows.
 
-**Status:** Phase 1 complete (Proxmox), Phase 2 in progress (k3s, n8n)  
+**Status:** Phase 1 complete (Proxmox), Phase 2 in progress (k3s, n8n)
 **Deadline:** 2026-06-30
 
 **What it will do:**
@@ -44,7 +65,7 @@ Kubernetes-based platform for deploying, testing, and scaling smart operations w
 
 ---
 
-### 3. **Smart Operations Framework** 
+### 3. **Smart Operations Framework**
 
 20 documented Lean Management Playbooks covering:
 - Shopfloor Management
@@ -54,10 +75,26 @@ Kubernetes-based platform for deploying, testing, and scaling smart operations w
 - Safety & escalation procedures
 - RCA & problem-solving
 
-**Status:** ✅ Documented & active  
+**Status:** ✅ Documented & active
 **Use case:** Standards for production teams, training material
 
-📚 **Framework:** [Hermes Master Vault](https://github.com/mario-bergsch/hermes-master) (private)
+---
+
+## How to Use This Portfolio
+
+**Recruiters & Hiring Managers:**
+- Check [ai-shift-handover-system](https://github.com/mario-bergsch/ai-shift-handover-system) for a fully working, tested AI project
+- See the 12/12 validated test results in the repo
+- All claims are labeled: ✅ Nachgewiesen / ✅ Validiert / 🔄 Geplant
+
+**Developers & Engineers:**
+- Clone and run the shift handover MVP (instructions above)
+- Review the prompt engineering approach in `/prompts`
+- Check architecture decisions in `/docs`
+
+**Operations & Manufacturing Professionals:**
+- The RCA example in ai-shift-handover-system uses real 6M + 5-Why methodology
+- The Smart Operations Framework covers 20 lean management playbooks
 
 ---
 
@@ -86,6 +123,7 @@ Kubernetes-based platform for deploying, testing, and scaling smart operations w
 ## Let's Connect
 
 - **LinkedIn:** [linkedin.com/in/mario-bergsch-0b7589398/](https://www.linkedin.com/in/mario-bergsch-0b7589398/)
+- **Website:** [mbergsch.com](https://mbergsch.com)
 - **Email:** devops@mbergsch.com
 
 Interested in smart operations automation, AI integration for manufacturing, or lean transformation? Let's talk.
@@ -104,5 +142,13 @@ No vaporware. No overstatements. Just real engineering.
 
 ---
 
-**Updated:** 2026-06-04  
+## License
+
+MIT License — free to use, adapt, and share with attribution.
+
+See [LICENSE](./LICENSE) for details.
+
+---
+
+**Updated:** 2026-06-05
 **Status:** Building publicly, hiring/consulting open
